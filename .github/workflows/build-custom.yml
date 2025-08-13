@@ -11,10 +11,7 @@ on:
 jobs:
   build-release:
     name: "Build and Release"
-    runs-on: 
-      -self-hosted
-      -linux
-      -x64
+    runs-on: self-hosted
 
     steps:
       - name: "Checking out git repository"
